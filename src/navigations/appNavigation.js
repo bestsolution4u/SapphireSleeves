@@ -28,15 +28,20 @@ const MainStack = createStackNavigator({
 const Navigation = createSwitchNavigator({
     Auth: {screen: AuthStack},
     Main: {screen: MainStack}
-}, {initialRouteName: 'Auth'});
+}, {
+    initialRouteName: 'Auth',
+    defaultNavigationOptions: {
+        cardStyle: { backgroundColor: '#FFFFFF' },
+    }
+});
 
 const AppContainer = createAppContainer(Navigation);
 
 export const AppNavigation = () => {
     return (
         <React.Fragment>
-            <AppContainer />
-            <FlashMessage position="top" />
+            <AppContainer/>
+            <FlashMessage position="top"/>
         </React.Fragment>
     );
 };
