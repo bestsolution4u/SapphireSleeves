@@ -1,0 +1,14 @@
+com/sapphiresleeves/MainActivity.java
+ com.sapphiresleeves.MainActivity
+com/sapphiresleeves/ReactNativeFlipper.java
+ com.sapphiresleeves.ReactNativeFlipper
+ com.sapphiresleeves.ReactNativeFlipper$1
+ com.sapphiresleeves.ReactNativeFlipper$2
+ com.sapphiresleeves.ReactNativeFlipper$2$1
+com/sapphiresleeves/MainApplication.java
+ com.sapphiresleeves.MainApplication
+ com.sapphiresleeves.MainApplication$1
+com/sapphiresleeves/BuildConfig.java
+ com.sapphiresleeves.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

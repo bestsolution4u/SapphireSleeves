@@ -1,7 +1,7 @@
 import React, {useEffect, memo} from 'react';
 import {BackHandler, Platform} from 'react-native';
 import {connect} from 'react-redux';
-import {AppNavigation} from './AppNavigation';
+import {AppNavigation} from "./appNavigation";
 
 const ReduxNavigation = memo(({dispatch, nav}) => {
     useEffect(() => {
