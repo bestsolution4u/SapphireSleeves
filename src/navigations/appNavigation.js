@@ -3,7 +3,8 @@ import {createAppContainer, createSwitchNavigator} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import FlashMessage from 'react-native-flash-message';
 import LoginScreen from "../screens/auth/LoginScreen";
-import HomeScreen from "../screens/main/HomeScreen";
+import MainScreen from "../screens/main/MainScreen";
+import GameDetailScreen from "../screens/main/GameDetailScreen";
 
 const AuthStack = createStackNavigator({
     Login: {
@@ -15,19 +16,11 @@ const AuthStack = createStackNavigator({
     }
 }, {initialRouteName: 'Login'});
 
-const MainStack = createStackNavigator({
-    Home: {
-        screen: HomeScreen,
-        navigationOptions: {
-            headerShown: false,
-            headerTitle: null,
-        },
-    }
-}, {initialRouteName: 'Home'});
+
 
 const Navigation = createSwitchNavigator({
     Auth: {screen: AuthStack},
-    Main: {screen: MainStack}
+    Main: {screen: MainScreen}
 }, {
     initialRouteName: 'Auth',
     defaultNavigationOptions: {
