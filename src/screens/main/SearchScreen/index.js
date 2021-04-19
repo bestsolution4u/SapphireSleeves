@@ -105,7 +105,7 @@ const SearchScreen = props => {
                 marginVertical: 20,
                 marginRight: 20,
                 marginLeft: index === 0 ? 20 : 0
-            }} onPress={() => {props.onGameDetail();}}>
+            }} onPress={() => props.homeStackNav.navigate('GameDetail')}>
                 <ImageBackground
                     style={{width: '100%', height: 145}}
                     imageStyle={{borderTopLeftRadius: 12, borderTopRightRadius: 12}}
@@ -163,7 +163,7 @@ const SearchScreen = props => {
                             elevation: 6,
                             marginBottom: index < games.length - 1 ? 20 : 120,
                             flexDirection: 'row'
-                        }} onPress={() => {props.onGameDetail()}}>
+                        }} onPress={() => props.homeStackNav.navigate('GameDetail')}>
                             <ImageBackground
                                 style={{width: 120, height: 120, marginRight: 20}}
                                 imageStyle={{borderTopLeftRadius: 12, borderBottomLeftRadius: 12}}

@@ -42,9 +42,7 @@ const GameListScreen = props => {
 
     const renderGame = ({item}) => {
         return (
-            <TouchableOpacity style={{marginVertical: 5, borderRadius: 4}} onPress={() => {
-                props.onGameDetail();
-            }}>
+            <TouchableOpacity style={{marginVertical: 5, borderRadius: 4}} onPress={() => props.homeStackNav.navigate('GameDetail')}>
                 <ImageBackground
                     style={{width: '100%', height: 160}}
                     imageStyle={{borderRadius: 4}}

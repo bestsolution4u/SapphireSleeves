@@ -47,35 +47,35 @@ const BookmarkScreen = props => {
     const bustines = [
         {
             "name": "Vudulhu",
-            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/header_sito.jpg"},
+            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/borsa_3D_congiocodavanti-600x729.jpg"},
         },
         {
             "name": "Vudulhu",
-            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/header_sito.jpg"},
+            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/borsa_3D_congiocodavanti-600x729.jpg"},
         },
         {
             "name": "Vudulhu",
-            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/header_sito.jpg"},
+            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/borsa_3D_congiocodavanti-600x729.jpg"},
         },
         {
             "name": "Vudulhu",
-            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/header_sito.jpg"},
+            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/borsa_3D_congiocodavanti-600x729.jpg"},
         },
         {
             "name": "Vudulhu",
-            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/header_sito.jpg"},
+            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/borsa_3D_congiocodavanti-600x729.jpg"},
         },
         {
             "name": "Vudulhu",
-            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/header_sito.jpg"},
+            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/borsa_3D_congiocodavanti-600x729.jpg"},
         },
         {
             "name": "Vudulhu",
-            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/header_sito.jpg"},
+            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/borsa_3D_congiocodavanti-600x729.jpg"},
         },
         {
             "name": "Vudulhu",
-            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/header_sito.jpg"},
+            "image": {"url": "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/borsa_3D_congiocodavanti-600x729.jpg"},
         }
     ];
 
@@ -131,7 +131,7 @@ const BookmarkScreen = props => {
                 aspectRatio: 1,
                 borderRadius: 6,
                 marginLeft: index % 4 === 0 ? 0 : 10
-            }} onPress={() => props.onGameDetail()}>
+            }} onPress={() => props.homeStackNav.navigate('GameDetail')}>
                 <ImageBackground
                     style={{width: '100%', aspectRatio: 1}}
                     imageStyle={{borderRadius: 6}}
@@ -192,7 +192,7 @@ const BookmarkScreen = props => {
                 aspectRatio: 1,
                 borderRadius: 6,
                 marginLeft: index % 4 === 0 ? 0 : 10
-            }} onPress={() => props.onBustineDetail()}>
+            }} onPress={() => props.homeStackNav.navigate('BustineDetail')}>
                 <ImageBackground
                     style={{width: '100%', aspectRatio: 1}}
                     imageStyle={{borderRadius: 6}}

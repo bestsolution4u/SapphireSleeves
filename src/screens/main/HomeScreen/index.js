@@ -36,7 +36,7 @@ const HomeScreen = props => {
                     }}>
                     <Tabs.Screen
                         name="GameListScreen"
-                        children={() => <GameListScreen onGameDetail={() => props.navigation.navigate('GameDetail')}/>}
+                        children={() => <GameListScreen homeStackNav={props.navigation} />}
                         options={{
                             tabBarIcon: ({focused, color}) => (
                                 <MaterialIcon
@@ -49,7 +49,7 @@ const HomeScreen = props => {
                     />
                     <Tabs.Screen
                         name="SearchScreen"
-                        children={() => <SearchScreen onGameDetail={() => props.navigation.navigate('GameDetail')}/>}
+                        children={() => <SearchScreen homeStackNav={props.navigation} />}
                         options={{
                             tabBarIcon: ({focused, color, size}) => (
                                 <MaterialIcon
@@ -62,7 +62,7 @@ const HomeScreen = props => {
                     />
                     <Tabs.Screen
                         name="BookmarkScreen"
-                        children={() => <BookmarkScreen onGameDetail={() => props.navigation.navigate('GameDetail')} onBustineDetail={() => {props.navigation.navigate('BustineDetail')}}/>}
+                        children={() => <BookmarkScreen homeStackNav={props.navigation} />}
                         options={{
                             tabBarIcon: ({focused, color}) => (
                                 <MaterialIcon
@@ -75,7 +75,7 @@ const HomeScreen = props => {
                     />
                     <Tabs.Screen
                         name="InboxScreen"
-                        component={InboxScreen}
+                        children={() => <InboxScreen homeStackNav={props.navigation}/>}
                         options={{
                             tabBarIcon: ({focused, color}) => (
                                 <IonIcon

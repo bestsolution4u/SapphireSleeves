@@ -52,7 +52,7 @@ const BustineDetailScreen = props => {
             <View style={[AppStyles.container, {alignItems: 'center'}]}>
                 <ImageBackground
                     style={styles.headerImage}
-                    source={{uri: "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/header_sito.jpg"}}>
+                    source={{uri: "http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/borsa_3D_congiocodavanti-600x729.jpg"}}>
                     <View style={[styles.headerImage, {backgroundColor: 'rgba(0, 0, 0, 0.2)'}]}>
                         <TouchableOpacity style={styles.backIcon} onPress={() => {props.navigation.goBack()}}>
                             <IonIcon color='white' name='arrow-back' size={25}/>
@@ -60,7 +60,7 @@ const BustineDetailScreen = props => {
                     </View>
                 </ImageBackground>
                 <Image
-                    source={{uri: 'http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/header_sito.jpg'}}
+                    source={{uri: 'http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/borsa_3D_congiocodavanti-600x729.jpg'}}
                     style={[styles.avatar, {left: (width - 110) / 2}]}/>
                 <Text style={styles.title}>Sapphire Bustina Verde</Text>
                 <Text style={styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </Text>
