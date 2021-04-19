@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native';
 
 export const AppStyles = StyleSheet.create({
     row: {
-        flexDirection: 'row'
+        flexDirection: 'row',
     },
     container: {
         flex: 1,
@@ -20,5 +20,6 @@ export const AppStyles = StyleSheet.create({
         height: 50,
         flexDirection: 'row',
         backgroundColor: 'white',
+        alignItems: 'center'
     }
 });

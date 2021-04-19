@@ -7,6 +7,7 @@ import {createStackNavigator} from "react-navigation-stack";
 import MainScreen from "../screens/main/MainScreen";
 import GameDetailScreen from "../screens/main/GameDetailScreen";
 import BustineDetailScreen from "../screens/main/BustineDetailScreen";
+import ChattingScreen from "../screens/main/ChattingScreen";
 
 const HomeStack = createStackNavigator({
     HomeTabs: {
@@ -25,6 +26,13 @@ const HomeStack = createStackNavigator({
     },
     BustineDetail: {
         screen: BustineDetailScreen,
+        navigationOptions: {
+            headerShown: false,
+            headerTitle: null,
+        },
+    },
+    Chatting: {
+        screen: ChattingScreen,
         navigationOptions: {
             headerShown: false,
             headerTitle: null,
