@@ -18,31 +18,31 @@ const SearchScreen = props => {
         },
         {
             "name": "Vudulhu",
-            "image": {"url": "https://cdna.artstation.com/p/assets/images/images/008/065/080/large/ferdinando-batistini-vudulhu.jpg"},
+            "image": {"url": "https://picsum.photos/200/300.jpg"},
         },
         {
             "name": "Vudulhu",
-            "image": {"url": "https://cdna.artstation.com/p/assets/images/images/008/065/080/large/ferdinando-batistini-vudulhu.jpg"},
+            "image": {"url": "https://www.placecage.com/640/360"},
         },
         {
             "name": "Vudulhu",
-            "image": {"url": "https://cdna.artstation.com/p/assets/images/images/008/065/080/large/ferdinando-batistini-vudulhu.jpg"},
+            "image": {"url": "https://placeimg.com/640/480/any"},
         },
         {
             "name": "Vudulhu",
-            "image": {"url": "https://cdna.artstation.com/p/assets/images/images/008/065/080/large/ferdinando-batistini-vudulhu.jpg"},
+            "image": {"url": "https://loremflickr.com/320/240/dog"},
         },
         {
             "name": "Vudulhu",
-            "image": {"url": "https://cdna.artstation.com/p/assets/images/images/008/065/080/large/ferdinando-batistini-vudulhu.jpg"},
+            "image": {"url": "https://loremflickr.com/g/320/240/paris"},
         },
         {
             "name": "Vudulhu",
-            "image": {"url": "https://cdna.artstation.com/p/assets/images/images/008/065/080/large/ferdinando-batistini-vudulhu.jpg"},
+            "image": {"url": "https://loremflickr.com/320/240/paris,girl/all"},
         },
         {
             "name": "Vudulhu",
-            "image": {"url": "https://cdna.artstation.com/p/assets/images/images/008/065/080/large/ferdinando-batistini-vudulhu.jpg"},
+            "image": {"url": "https://loremflickr.com/320/240/brazil,rio"},
         },
     ];
 
