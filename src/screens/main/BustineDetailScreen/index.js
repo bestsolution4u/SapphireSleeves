@@ -62,7 +62,7 @@ const BustineDetailScreen = props => {
                 <Image
                     source={{uri: 'http://sapphiresleeves.redglove.eu/wp-content/uploads/2018/09/header_sito.jpg'}}
                     style={[styles.avatar, {left: (width - 110) / 2}]}/>
-                <Text style={styles.title}>Loch Ness</Text>
+                <Text style={styles.title}>Sapphire Bustina Verde</Text>
                 <Text style={styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </Text>
                 <View style={{width: 1, height: 20}} />
                 {

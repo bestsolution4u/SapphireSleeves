@@ -1,0 +1,10 @@
+com/sapphiresleeves/MainActivity.java
+ com.sapphiresleeves.MainActivity
+ com.sapphiresleeves.MainActivity$1
+com/sapphiresleeves/MainApplication.java
+ com.sapphiresleeves.MainApplication
+ com.sapphiresleeves.MainApplication$1
+com/sapphiresleeves/BuildConfig.java
+ com.sapphiresleeves.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

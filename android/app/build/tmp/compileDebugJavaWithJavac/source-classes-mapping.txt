@@ -1,5 +1,6 @@
 com/sapphiresleeves/MainActivity.java
  com.sapphiresleeves.MainActivity
+ com.sapphiresleeves.MainActivity$1
 com/sapphiresleeves/ReactNativeFlipper.java
  com.sapphiresleeves.ReactNativeFlipper
  com.sapphiresleeves.ReactNativeFlipper$1

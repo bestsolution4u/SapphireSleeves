@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SapphireSleeves.iml" filepath="$PROJECT_DIR$/.idea/modules/SapphireSleeves.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SapphireSleeves.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SapphireSleeves.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-453402219/SapphireSleeves.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-453402219/SapphireSleeves.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/922063074/SapphireSleeves.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/922063074/SapphireSleeves.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/116164602/SapphireSleeves.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/116164602/SapphireSleeves.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1990719691/SapphireSleeves.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/1990719691/SapphireSleeves.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/577948323/SapphireSleeves.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/577948323/SapphireSleeves.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-913635472/SapphireSleeves.react-native-spinkit.iml" filepath="$PROJECT_DIR$/.idea/modules/-913635472/SapphireSleeves.react-native-spinkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1637678540/SapphireSleeves.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/-1637678540/SapphireSleeves.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>

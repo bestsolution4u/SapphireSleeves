@@ -3,8 +3,6 @@ import {StatusBar, View, Text} from 'react-native';
 import {connect} from 'react-redux';
 import {styles} from './style';
 import {AppStyles} from "../../../constants/appStyles";
-import Hamburger from "../../../components/menu/Hamburger";
-
 
 const InboxScreen = props => {
     return (
