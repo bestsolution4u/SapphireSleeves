@@ -28,12 +28,12 @@
         "source": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\node_modules_reactnativeflashmessage_src_icons_fm_icon_info.png"
     },
     {
-        "merged": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json.flat",
-        "source": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json"
-    },
-    {
         "merged": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json.flat",
+        "source": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json"
     },
     {
         "merged": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -74,6 +74,10 @@
     {
         "merged": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png.flat",
         "source": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxxhdpi\\node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png"
+    },
+    {
+        "merged": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_entypo.json.flat",
+        "source": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_entypo.json"
     },
     {
         "merged": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_nativebase_dist_src_basic_icon_nbicons.json.flat",
@@ -164,6 +168,10 @@
         "source": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_antdesign.json"
     },
     {
+        "merged": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_foundation.json.flat",
+        "source": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_foundation.json"
+    },
+    {
         "merged": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
@@ -218,6 +226,10 @@
     {
         "merged": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_node_modules_reactnativeflashmessage_src_icons_fm_icon_danger.png.flat",
         "source": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\node_modules_reactnativeflashmessage_src_icons_fm_icon_danger.png"
+    },
+    {
+        "merged": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_emojidatasource_emoji.json.flat",
+        "source": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_emojidatasource_emoji.json"
     },
     {
         "merged": "D:\\Projects\\React Native\\SapphireSleeves\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json.flat",
